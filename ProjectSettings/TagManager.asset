@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Cube
+  - Cylinder
+  - Cylinder1
+  - Cube1
+  - CubeK
+  - CubeM
+  - CubeS
+  - CubeT
+  - CubeMo1
+  - CubeMo2
+  - CubeMo3
+  - CubeP1
+  - CubeP2
+  - CubeP3
+  - CubeP4
+  - CubeKa1
+  - CubeG
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
