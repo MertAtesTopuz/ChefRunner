@@ -8,19 +8,16 @@ TagManager:
   - Cylinder
   - Cylinder1
   - Cube1
-  - CubeK
-  - CubeM
-  - CubeS
-  - CubeT
-  - CubeMo1
-  - CubeMo2
-  - CubeMo3
-  - CubeP1
-  - CubeP2
-  - CubeP3
-  - CubeP4
-  - CubeKa1
-  - CubeG
+  - Salad-d
+  - Cucumber-d
+  - Chicken-d
+  - Meat-d
+  - YCheese-d
+  - WCheese-d
+  - Tomato-d
+  - Onion-d
+  - WBread-d
+  - BBread-d
   layers:
   - Default
   - TransparentFX
@@ -28,9 +25,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - UI2
+  - Player
+  - Pickable
   - 
   - 
   - 

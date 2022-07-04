@@ -23,7 +23,7 @@ public class CharacterControl : MonoBehaviour
 
     void Update()
     {
-        if (Input.touchCount > 0)
+    /*    if (Input.touchCount > 0)
         {
             Touch finger = Input.GetTouch(0);
 
@@ -38,16 +38,29 @@ public class CharacterControl : MonoBehaviour
                 left = true;
                 right = false;
             }
+        } */
+
+        if(Input.GetKeyDown(KeyCode.A))
+        {
+            left = false;
+            right = true;
+
+        }
+        if(Input.GetKeyDown(KeyCode.D))
+        {
+            left = true;
+            right = false;
+
         }
 
         if (right == true)
         {
-            transform.position = Vector3.Lerp(transform.position, new Vector3(-1.7f, transform.position.y, transform.position.z), speed * Time.deltaTime);
+            transform.position = Vector3.Lerp(transform.position, new Vector3(-1.8f, transform.position.y, transform.position.z), speed * Time.deltaTime);
         }
 
         if (left == true)
         {
-            transform.position = Vector3.Lerp(transform.position, new Vector3(1.7f, transform.position.y, transform.position.z), speed * Time.deltaTime);
+            transform.position = Vector3.Lerp(transform.position, new Vector3(1.8f, transform.position.y, transform.position.z), speed * Time.deltaTime);
         }
 
         if (canRun == true)
